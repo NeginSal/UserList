@@ -1,3 +1,5 @@
+import styles from '../../styles/Details.module.css'
+
 export const getStaticPaths = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const data = await res.json();
@@ -27,9 +29,9 @@ export const getStaticPaths = async () => {
   const Details = ({ user }) => {
     return (
       <div>
-        <h1>User id : { user.id }</h1>
-        <p>title : { user.title }</p>
-        <p>body : { user.body }</p>
+        <h1 className={styles.text}>User id : { user.id }</h1>
+        <p className={styles.text1}>title : { user.title }</p>
+        <p className={styles.text2}>body : { user.body }</p>
       </div>
     );
   }

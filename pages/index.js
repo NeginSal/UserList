@@ -1,10 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Navbar from '../comps/Navbar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div>
+      <Navbar/>
       <h1>HomePage</h1>
       <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
         De carne lumbering animata corpora quaeritis.

@@ -7,7 +7,6 @@ import Link from 'next/dist/client/link'
 export default function Home() {
   return (
     <div>
-      <Navbar/>
       <h1>HomePage</h1>
       <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
         De carne lumbering animata corpora quaeritis.

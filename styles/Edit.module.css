@@ -1,0 +1,31 @@
+.btn{
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #b300b3;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color: #ccccff;
+    border-radius: 50px;
+}
+.contact .contactform{
+    flex-basis: 600px;
+    text-align: left;
+}
+.contact  .contactform label{
+    display: block;
+    margin: 1rem 0;
+
+}
+.contact .contactform input
+{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}

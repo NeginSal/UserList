@@ -1,22 +1,32 @@
 .text {
-  color: #4d0019;
+  color: #b300b3;
 }
 .text1 {
+  font-size: 25px;
     padding: 2px 16px;
-    background: #fff;
+    background:  #cce6ff;
     display: block;
     margin: 20px 10px;
-    border-left: 8px solid #fff;
-    color: #003366;
-    border-left: 5px solid #003366;
+    color: #0066ff;
+    border-left: 3px solid #0047b3;
   }
 
   .text2 {
+    font-size: 20px;
     padding: 2px 16px;
-    background: #fff;
+    background: #ccffb3;
     display: block;
     margin: 20px 10px;
-    border-left: 8px solid #fff;
-    color: #0033cc;
-    border-left: 5px solid #0033cc;
+    color: #008000;
+    border-left: 3px solid #006600;
+  }
+  .btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #b300b3;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
   }

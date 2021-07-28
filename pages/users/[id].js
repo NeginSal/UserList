@@ -1,4 +1,5 @@
 import styles from '../../styles/Details.module.css'
+import Link from 'next/dist/client/link'
 
 export const getStaticPaths = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
@@ -30,8 +31,9 @@ export const getStaticPaths = async () => {
     return (
       <div>
         <h1 className={styles.text}>User id : { user.id }</h1>
-        <p className={styles.text1}>title : { user.title }</p>
+        <p className={styles.text1}>title :   { user.title }</p>
         <p className={styles.text2}>body : { user.body }</p>
+        <Link href='edit'><a className={styles.btn}>Edit</a></Link>
       </div>
     );
   }
